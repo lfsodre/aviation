@@ -3,18 +3,15 @@ import { Text, View, ScrollView } from "react-native";
 import Constants from "expo-constants";
 
 import { Post } from "../components/post";
-import { Space } from "../components/space";
-import { Input } from "../components/input";
 import { Header } from "../components/header";
 import { Banner } from "../components/banner";
 import { Search } from "../components/search";
 import { Follow } from "../components/follow";
 import { Section } from "../components/section";
 
-
 const statusBarHeight = Constants.statusBarHeight
 
-export default function Index() {
+export default function App() {
   return (
     <ScrollView 
       style={{flex: 1}}
@@ -33,9 +30,7 @@ export default function Index() {
         />
         <Post/>
         <Search/>
-        <Space/><Space/>
-        <Input/>
-        <Space/><Space/>
+        <Banner/>
       </View>
     </ScrollView>
   )
