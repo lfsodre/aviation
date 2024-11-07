@@ -8,7 +8,7 @@ export function Post() {
         {/*----BANNER 1----*/}
         <Image
           source={require("../../assets/post1.jpg")}
-          style={tw`w-full h-60 rounded-2xl`}
+          style={tw`w-full h-90 rounded-2xl mb-2`}
           resizeMode="cover"
         />
         
@@ -16,14 +16,14 @@ export function Post() {
         {/*----BANNER 2----*/}
         <Image
           source={require("../../assets/post2.jpg")}
-          style={tw`w-full h-60 rounded-2xl`}
+          style={tw`w-full h-90 rounded-2xl mb-2`}
           resizeMode="cover"
         />
 
         {/*----BANNER 3----*/}
         <Image
           source={require("../../assets/post3.jpg")}
-          style={tw`w-full h-60 rounded-2xl`}
+          style={tw`w-full h-90 rounded-2xl mb-2`}
           resizeMode="cover"
         />
     

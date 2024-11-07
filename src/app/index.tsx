@@ -37,6 +37,7 @@ export default function Index() {
         <Space/><Space/>
         <Input/>
         <Space/><Space/>
+        <Header/>
         <Post/>
         <Footer/>
       </View>
