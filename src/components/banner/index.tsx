@@ -3,8 +3,8 @@ import tw from 'twrnc';
 
 export function Banner() {
  return (
-   <View className='w-full h-36 md:h-60 rounded-2xl mt-5'>
-      
+   <View className='w-full h-36 md:h-60 rounded-2xl'>
+
       {/*----BANNER 1----*/}
       <Pressable
         style={tw`w-full h-full rounded-2xl`}
