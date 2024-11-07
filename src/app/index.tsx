@@ -11,6 +11,7 @@ import { Search } from "../components/search";
 import { Follow } from "../components/follow";
 import { Footer } from "../components/footer";
 import { Notice } from "../components/notice";
+import { Poster } from "../components/poster";
 import { Section } from "../components/section";
 
 const statusBarHeight = Constants.statusBarHeight
@@ -34,12 +35,17 @@ export default function Index() {
         />
         <Notice/>
         <Search/>
-        <Space/><Space/>
+        <Space/>
         <Input/>
-        <Space/><Space/>
+        <Space/>
+
         <Header/>
         <Post/>
         <Footer/>
+
+        <Space/>
+        <Header/>
+        <Poster/>
       </View>
     </ScrollView>
   )
