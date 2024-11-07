@@ -9,8 +9,9 @@ import { Header } from "../components/header";
 import { Banner } from "../components/banner";
 import { Search } from "../components/search";
 import { Follow } from "../components/follow";
+import { Footer } from "../components/footer";
+import { Notice } from "../components/notice";
 import { Section } from "../components/section";
-
 
 const statusBarHeight = Constants.statusBarHeight
 
@@ -31,11 +32,13 @@ export default function Index() {
           size="text-lg"
           action={ () => console.log("CLICOU NO VEJA MAIS") }
         />
-        <Post/>
+        <Notice/>
         <Search/>
         <Space/><Space/>
         <Input/>
         <Space/><Space/>
+        <Post/>
+        <Footer/>
       </View>
     </ScrollView>
   )
